@@ -4,7 +4,7 @@ import React from "react";
 const HorizontalCards = ({ trendingdata }) => {
   return (
     
-      <div className="w-[90vw] sm:w-full flex h-[60vh] flex-col sm:flex-row  sm:overflow-y-hidden">
+      <div className="w-[90vw] sm:w-full flex h-[50vh] flex-col sm:flex-row  sm:overflow-y-hidden">
         {trendingdata.map((d, i) => (
           <div
             key={i}

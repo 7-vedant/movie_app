@@ -23,7 +23,7 @@ const Header = ({ wallpaperdata }) => {
           wallpaperdata.original_name ||
           wallpaperdata.title}
       </h1>
-      <p className="text-zinc-400 font-semibold w-[90%] sm:w-[70%]">
+      <p className=" text-zinc-400 font-semibold hidden sm:block sm:w-[70%]">
         {wallpaperdata.overview.slice(0, 200)}
         <Link className="text-blue-500">...more</Link>
       </p>

@@ -3,7 +3,7 @@ import React from "react";
 const Dropdown = ({ title, options, func }) => {
   return (
     <div>
-      <select className="rounded px-2 py-1 text-white bg-zinc-600 border-none outline-none" onChange={func} defaultValue="0" name="format" id="format">
+      <select className="rounded hidden sm:block px-2 py-1 text-white bg-zinc-600 border-none outline-none" onChange={func} defaultValue="0" name="format" id="format">
         <option value="0" disabled>
             {title}
         </option>
